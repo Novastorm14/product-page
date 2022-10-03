@@ -16,6 +16,7 @@ body {
 }
 
 img {
+  display: block;
   width: 100%;
 }
 
@@ -28,6 +29,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem .5rem;
 }
 
 header nav ul {
@@ -46,6 +48,19 @@ header nav ul li a {
 header nav ul li a:hover,
 header nav ul li a:focus {
   text-decoration: underline;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+article {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 footer {
