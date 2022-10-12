@@ -8,10 +8,12 @@ html {
 
 html {
   font-size: 100%;
+  min-width: inherit;
 }
 
 body {
-  margin: 0;
+  line-height: 1.5;
+  margin: 0 10% 0 10%;
   /* include your font family and default line-height */
 }
 
@@ -26,13 +28,13 @@ img {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
   align-items: center;
   padding: 1rem .5rem;
 }
 
 header nav ul {
+  justify-content: center;
   list-style-type: none;
   display: flex;
   gap: 1.5rem;
@@ -43,6 +45,7 @@ header nav ul li a {
   font-weight: bold;
   text-decoration: none;
   font-size: 1.25rem;
+  padding: 0 auto;
 }
 
 header nav ul li a:hover,
@@ -50,14 +53,23 @@ header nav ul li a:focus {
   text-decoration: underline;
 }
 
-section {
+/* section { */
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 1rem;
 }
 
-article {
+a {
+  border: .2rem solid rgba(55, 131, 163, .4);
+  color: #3783a3;
+  text-decoration: none;
+  padding: .5em 1em .6em;
+  margin-top: auto;
+  border-radius: .3rem;
+}
+
+/* article { */
   display: flex;
   justify-content: space-between;
   flex-direction: column;
