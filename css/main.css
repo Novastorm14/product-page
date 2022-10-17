@@ -131,10 +131,6 @@ figcaption {
   font-size: .9rem;
 }
 
-h1 h2 h3 h4{
-  margin: 1.5rem 0 0 0;
-}
-
 p {
   margin: 0.5rem 0 0 0;
 }
@@ -156,6 +152,7 @@ figure {
 }
 
 footer {
+  font-style: bold;
   text-align: center;
 }
 
@@ -277,6 +274,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(auto-fit, minmax(4, 1fr));
     gap: 1rem;
+    padding-bottom: 5rem;
   }
 
   .img1 {
@@ -328,10 +326,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
     margin-top: 1rem;
-  }
-
-  .names {
-    grid-column: 1;
+    padding-bottom: 5rem;
   }
 
   .img34 {
@@ -341,9 +336,8 @@ footer {
     size: cover;
     width: 100%;
     height: 50%;
-    margin: 0;
   }
-  
+
   .browsed {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
