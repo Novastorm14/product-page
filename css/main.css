@@ -111,21 +111,24 @@ span {
   font-size: 1.5rem;
 }
 
-ul {
-  font-size: .75rem;
-}
-
 ul p {
   font-weight: bold;
 }
 
+li {
+  font-size: .9rem;
+}
+
 dt {
-  font-size: .75rem;
   font-weight: bold;
 }
 
 dd {
-  font-size: .75rem;
+  font-size: .9rem;
+}
+
+figcaption {
+  font-size: .9rem;
 }
 
 h1 h2 h3 h4{
@@ -168,7 +171,7 @@ footer {
   }
 
   .wrapper {
-    min-width: 500px;
+    min-width: 450px;
     max-width: 800px;
     margin: 0 auto;
   }
@@ -226,7 +229,7 @@ footer {
   }
 
   .included {
-    padding-top: 3rem;
+    margin-top: 5rem;
     grid-column: 1 / -1;
     grid-row: 2;
   }
@@ -314,7 +317,7 @@ footer {
     }
 
     .included {
-      padding-top: 3rem;
+      margin-top: 5rem;
       grid-column: 2 / -1;
       grid-row: 2;
     }
